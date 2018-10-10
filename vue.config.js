@@ -20,7 +20,7 @@ const generateDevProjects = () => {
 };
 
 module.exports = {
-	baseUrl: process.env.NODE_ENV === "production" ? "/my-project/" : "/",
+	baseUrl: process.env.NODE_ENV === "production" ? "/vue-form-generator-demo/" : "/",
 	lintOnSave: true,
 	runtimeCompiler: false,
 	productionSourceMap: false,
